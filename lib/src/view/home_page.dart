@@ -22,13 +22,13 @@ class HomePage extends StatelessWidget {
       body: Container(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: GetBuilder<HomePageControl>(
-          builder: (GetxController m) {
+          builder: (_) {
             return RefreshIndicator(
               onRefresh: () async {
                 controller.fatsedata();
               },
               child: ListView.separated(
-                itemCount: 30,
+                itemCount: controller.coin.length,
                 itemBuilder: (BuildContext context, int index) {
                   return CoinBox(
                     width: width,
