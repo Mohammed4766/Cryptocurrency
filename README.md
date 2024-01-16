@@ -1,16 +1,7 @@
 # cryptocurrency
 
-A new Flutter project.
+The application uses API to display cryptocurrency prices, GETX is used as state management
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![تصميم بدون عنوان](https://github.com/Mohammed4766/Cryptocurrency/assets/96448600/f8b66961-3825-45a5-a20c-2c0ab6d32176)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
