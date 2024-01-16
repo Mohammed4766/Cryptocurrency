@@ -25,10 +25,11 @@ class HomePage extends StatelessWidget {
           builder: (_) {
             return RefreshIndicator(
               onRefresh: () async {
-                controller.fatsedata();
+                await controller.fatsedata();
               },
               child: ListView.separated(
                 itemCount: controller.coin.length,
+                 physics: const BouncingScrollPhysics(),
                 itemBuilder: (BuildContext context, int index) {
                   return CoinBox(
                     width: width,
